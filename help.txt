@@ -1,0 +1,15 @@
+Program sluży do porównywania plików i bądź folderów za pomocą sum kontrolnych. Pracuje on w 2 trybach:
+Tryb pierwszy Generowanie sum kontrolych (domyślny):
+- Należy wybrać czy chce się porównywać pliki czy foldery (za pomocą kliknięcia opcji "Wybierz co chcesz porownywac", domyślnie porównywane są pliki)
+- Należy wybrać jaką sumę kontrolną chce się generować za pomocą opcji "Wybierz funkcje hashujaca:"
+- Następnie należy podać ścieżki do plików/folderów (w zależnosci od tego co zadeklarowało się wcześniej) które chce się porównać
+- Wybranie opcji "Porownaj pliki/foldery" spowoduje (przy poprawnie wprowadzonych danych) wyswietlenie informacji zwrotnej czy dane są identycznie czy nie
+- Na koniec program spyta o chęć zapisania wygenerowanych sum kontrolnych, w przypadku wybrania opcji "TAK" należy wybrać foldery do którego zostaną zapisane pliki txt z wygenerowanymi sumami
+Tryb drugi Wczytywanie sum kontrolnych:
+tryb służy do porównania identyczności dwóch plików w których zapisane są sumy kontrolne
+- Tutaj nie trzeba podawać ani sumy kontrolnej ani tego czy porównujemy pliki czy foldery (niezależnie od podanych tam wartości program zadziała poprawnie)
+- Należy jedynie podać ścieżki do obu plików i nacisnąć opcje "Porownaj pliki/foldery" aby wyświetliła się informacja zawrotna o identyczności tych plików
+
+Opcja "Informacje o Autorze:" zawiera informacje o autorze programu
+Opcja "Pomoc" zawiera informacje o działaniu skryptu
+Opcja "Zakoncz program" kończy pracę programu
